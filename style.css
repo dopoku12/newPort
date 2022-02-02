@@ -1,0 +1,219 @@
+body {
+  overflow-x: hidden;
+
+  background-image: linear-gradient(
+    200deg,
+    rgb(23, 114, 252),
+    rgb(255, 255, 255)
+  );
+  
+}
+
+header {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.212);
+  height: 300px;
+  width: 100%;
+}
+.Dark {
+  position: relative;
+  bottom: -0.9%;
+  right: -96%;
+}
+
+.Introduction {
+  position: relative;
+  top: -45%;
+  width: 20px;
+  color: aliceblue;
+  font-family: "Titillium Web", sans-serif;
+}
+
+/* resume */
+
+.resume,
+.project { display:flex ;
+  margin-top: 5%;
+  border-radius: 13px;
+  box-shadow: 50px 50px 70px 60px rgba(0, 0, 0, 0.377);
+  z-index: -20;
+  position: relative;
+  width: 55vw;
+  height: 195vh;
+  border-color: white;
+  border-style: solid;
+  background-color: white;
+  left: 20%;
+}
+.hide {
+  display: none;
+}
+.box,
+.Contatct {
+  width: 55%;
+  height: 50%;
+  position: relative;
+  font-family: "Lobster", "cursive";
+}
+
+.Contatct {
+  white-space: nowrap;
+  left: 1em;
+}
+.container2 {
+  position: relative;
+  top: -15em;
+  left: 33em;
+
+  width: 40vh;
+  height: 150vh;
+}
+
+.resumeh1 {
+  position: relative;
+  background-color: rgb(23, 114, 252);
+  width: 55.3vw;
+  height: 255px;
+  left: -2px;
+}
+
+.resumeh1 .h1,
+.resumeh1 .h2 {
+  text-align: center;
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.resumetext,
+.resumetext1,
+.Contatct {
+  color: rgb(23, 114, 252);
+}
+.resumetext,
+.skills {
+  text-align: center;
+}
+.resumetext1,
+.p1 {
+  position: relative;
+  left: 30px;
+}
+
+.h1 {
+  font-size: 40px;
+  position: relative;
+  top: 50px;
+  left: 45%;
+  height: 50px;
+  width: 60px;
+  padding: 25px;
+  border: 5px white solid;
+}
+.h2 {
+  position: relative;
+  top: 40px;
+  left: 2.5%;
+}
+.p1 {
+  position: relative;
+  border-bottom: 1px slategray solid;
+  width: 60%;
+  left: 10px;
+}
+.p1,
+.p3,
+li {
+  position: relative;
+  font-family: "Titillium Web", sans-serif;
+}
+.p3,
+ul {
+  position: relative;
+  border-bottom: 1px slategray solid;
+  padding-left: 20px;
+}
+
+/* project */
+.project {
+  left: 45px;
+  width: 90vw;
+  height: 100vh;
+}
+
+.projecth1 {
+  position: relative;
+  background-color: rgb(252, 134, 23);
+  width: 90.4vw;
+  height: 255px;
+  left: -3px;
+}
+.box2 {
+  width: 55%;
+  height: 50%;
+  font-family: "Titillium Web", sans-serif;
+  position: relative;
+}
+
+.wrapper img {
+  box-shadow: 15px 15px 20px;
+  margin: 10px;
+  height: 25vh;
+  width: 25vw;
+  position: relative;
+}
+.pig {
+  position: relative;
+  left: 60vw;
+  top: -410px;
+}
+.num {
+  position: relative;
+  left: 30vw;
+  top: -205px;
+}
+/* footer */
+
+a {
+  text-decoration: none;
+  color: rgb(23, 114, 252);
+}
+
+p {
+  line-height: 1.8em;
+}
+
+footer {
+  color: rgba(253, 232, 232, 0.644);
+  padding-top: 60px;
+  height: 100px;
+  position: relative;
+}
+
+footer a {
+  color: rgba(253, 232, 232, 0.644);
+  position: relative;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 20px;
+  font-display: bolder;
+  top: 80px;
+}
+
+footer p {
+  position: relative;
+  font-weight: 900;
+  left: 80%;
+  top: 40px;
+}
+/*animation */
+
+.project:hover .num,
+.pig,
+.cap {
+  animation: pulse 1s ease-in-out;
+}
+@keyframes pulse {
+  100% {
+    transform: scale(1.15);
+  }
+}
